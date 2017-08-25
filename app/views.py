@@ -22,5 +22,5 @@ def search():
     if len(matches) > 0:
         return jsonify({'matches': matches})
 
-    return jsonify({'empty': 'No messages matched your query.'})
+    return jsonify({'empty': 'No messages matched your query. Please try again.'})
 
